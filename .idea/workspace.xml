@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac29a49f-6b5f-4a75-888a-7a0c2ccb64ec" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LaiB" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register-a.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/register-a.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register-b.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/register-b.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/global.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="75" column="66" lean-forward="true" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+              <folding>
+                <element signature="e#996#1748#0" expanded="false" />
+                <element signature="e#1870#3259#0" expanded="false" />
+                <element signature="e#2572#2783#0" expanded="false" />
+                <element signature="e#2795#2916#0" expanded="false" />
+                <element signature="e#3426#4594#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>images</find>
+      <find>https://img.sandbox.qixinyun.com/</find>
+      <find>pxiang-</find>
+      <find>ul.new-5</find>
+      <find>laib-index-03</find>
+      <find>index-04</find>
+      <find>pxiang</find>
+      <find>.active</find>
+      <find>h_top</find>
+      <find>.list1</find>
+      <find>../images</find>
+      <find>margin-bottom: 11px</find>
+      <find>search-in</find>
+      <find>red-new</find>
+      <find>red-title</find>
+      <find>pub-t</find>
+      <find>s-t-r-s</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>../images/</replace>
+      <replace>../../images/</replace>
+      <replace>laib-</replace>
+      <replace>laib</replace>
+      <replace>https://img.sandbox.qixinyun.com</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/views/nav/index-nav.html" />
+        <option value="$PROJECT_DIR$/public/views/head/head-top.html" />
+        <option value="$PROJECT_DIR$/public/views/header.html" />
+        <option value="$PROJECT_DIR$/public/views/footer/foot-top.html" />
+        <option value="$PROJECT_DIR$/public/html/index/index.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-index.less" />
+        <option value="$PROJECT_DIR$/public/views/nav/cjh-nav.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-nav.less" />
+        <option value="$PROJECT_DIR$/public/js/cxcjh-qt-global.js" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-cjh.less" />
+        <option value="$PROJECT_DIR$/public/html/cjh/cjh.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-hyfc.less" />
+        <option value="$PROJECT_DIR$/public/html/huiyuanfc/hyfc.html" />
+        <option value="$PROJECT_DIR$/public/views/nav/hyfc-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/chengxinzx/chzx.html" />
+        <option value="$PROJECT_DIR$/public/views/nav/cxzx-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/chengxinzx/cxzx.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-zcfg.less" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-cxzx.less" />
+        <option value="$PROJECT_DIR$/public/views/nav/zcfg-nav.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-jrfw.less" />
+        <option value="$PROJECT_DIR$/public/views/nav/jrfw-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/jinrongfw/jrfw.html" />
+        <option value="$PROJECT_DIR$/public/views/nav/sxbg-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/shixinbg/sxbg.html" />
+        <option value="$PROJECT_DIR$/public/views/nav/news-nav.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-news.less" />
+        <option value="$PROJECT_DIR$/public/html/chengxinzx/news.html" />
+        <option value="$PROJECT_DIR$/public/html/zhengcefg/zcfg.html" />
+        <option value="$PROJECT_DIR$/public/views/nav/ztjs-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/zhuantijs/ztjs.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-ztjs.less" />
+        <option value="$PROJECT_DIR$/public/views/nav/cxqk-nav.html" />
+        <option value="$PROJECT_DIR$/public/views/head/head-fot.html" />
+        <option value="$PROJECT_DIR$/public/html/chengxinqk/cxqk.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-cxqk.less" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-info-global.less" />
+        <option value="$PROJECT_DIR$/public/views/nav/contact-nav.html" />
+        <option value="$PROJECT_DIR$/public/html/contact/contact.html" />
+        <option value="$PROJECT_DIR$/public/css/cxcjh-qt-contact.less" />
+        <option value="$PROJECT_DIR$/ss.md" />
+        <option value="$PROJECT_DIR$/asd.md" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/VERSION" />
+        <option value="$PROJECT_DIR$/public/html/index.html" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/login.html" />
+        <option value="$PROJECT_DIR$/html/register.html" />
+        <option value="$PROJECT_DIR$/html/register-a.html" />
+        <option value="$PROJECT_DIR$/html/register-b.html" />
+        <option value="$PROJECT_DIR$/css/global.less" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="1" />
+    <option name="width" value="1294" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QYSH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QYSH" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="QYSH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QYSH" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="QYSH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QYSH" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="html" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\秦羿生活\QYSH\html" />
+      <recent name="D:\work\QXT\cxcjh\cxcjh-bd\public\views\nav" />
+      <recent name="D:\work\QXT\cxcjh\cxcjh-bd\public\css" />
+      <recent name="D:\work\QXT\cxcjh\cxcjh-bd\public\html\contact" />
+      <recent name="D:\work\QXT\cxcjh\cxcjh-bd\public\html\chengxinqk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\QXT\cxcjh\cxcjh-bd\public\html\news" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac29a49f-6b5f-4a75-888a-7a0c2ccb64ec" name="默认的" comment="" />
+      <created>1505266828384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505266828384</updated>
+      <workItem from="1505267553624" duration="5809000" />
+      <workItem from="1505282631645" duration="1933000" />
+      <workItem from="1505284871093" duration="7516000" />
+      <workItem from="1505295460931" duration="522000" />
+      <workItem from="1505297541460" duration="369000" />
+      <workItem from="1505358883076" duration="618000" />
+      <workItem from="1505371395685" duration="6137000" />
+      <workItem from="1505457807742" duration="113000" />
+      <workItem from="1505468471235" duration="127000" />
+      <workItem from="1505702618304" duration="2054000" />
+      <workItem from="1505713926448" duration="4854000" />
+      <workItem from="1505783789258" duration="1801000" />
+      <workItem from="1505803968539" duration="1600000" />
+      <workItem from="1505806300199" duration="561000" />
+      <workItem from="1505808034925" duration="2641000" />
+      <workItem from="1505872404584" duration="1008000" />
+      <workItem from="1505874754172" duration="400000" />
+      <workItem from="1505877611521" duration="1008000" />
+      <workItem from="1505889972455" duration="2056000" />
+      <workItem from="1505892531535" duration="855000" />
+      <workItem from="1506310315768" duration="1300000" />
+      <workItem from="1506334949692" duration="69000" />
+      <workItem from="1506580823944" duration="2002000" />
+      <workItem from="1506584212702" duration="2919000" />
+      <workItem from="1506648206359" duration="74000" />
+      <workItem from="1506650013972" duration="182000" />
+      <workItem from="1506677542743" duration="2979000" />
+      <workItem from="1506751041453" duration="4859000" />
+      <workItem from="1508117252133" duration="5119000" />
+      <workItem from="1508134180574" duration="13292000" />
+      <workItem from="1508202265871" duration="10170000" />
+      <workItem from="1508220021500" duration="9003000" />
+      <workItem from="1508232275457" duration="343000" />
+      <workItem from="1508232986725" duration="788000" />
+      <workItem from="1508245413206" duration="10000000" />
+      <workItem from="1509257254730" duration="599000" />
+      <workItem from="1510141050673" duration="133000" />
+      <workItem from="1510141267915" duration="404000" />
+      <workItem from="1510141701678" duration="57000" />
+      <workItem from="1510141792429" duration="357000" />
+      <workItem from="1510142524863" duration="96000" />
+      <workItem from="1510142650601" duration="583000" />
+      <workItem from="1510143256750" duration="23000" />
+      <workItem from="1510144361905" duration="124000" />
+      <workItem from="1510144521453" duration="181000" />
+      <workItem from="1510144726192" duration="47000" />
+      <workItem from="1510144786666" duration="721000" />
+      <workItem from="1510576933388" duration="31000" />
+      <workItem from="1510577238438" duration="9786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="118223000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5038085" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.4961915" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5038085" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47116432" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16204691" sideWeight="0.5038085" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-nav.less" />
+    <entry file="file://$PROJECT_DIR$/public/html/cjh/cjh.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-cjh.less" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/hyfc-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="70" lean-forward="true" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/huiyuanfc/hyfc.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-hyfc.less" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/cxzx-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="70" lean-forward="true" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-cxzx.less" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-zcfg.less" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/zcfg-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/nav/jrfw-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-jrfw.css" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-jrfw.less" />
+    <entry file="file://$PROJECT_DIR$/public/html/jinrongfw/jrfw.html" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/sxbg-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-sxbg.less" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/npm/node_modules/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/nav/news-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="77" lean-forward="true" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/shixinbg/sxbg.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-news.less" />
+    <entry file="file://$PROJECT_DIR$/public/html/chengxinzx/cxzx.html" />
+    <entry file="file://$PROJECT_DIR$/public/html/zhengcefg/zcfg.html" />
+    <entry file="file://$PROJECT_DIR$/public/html/news/news.html" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/ztjs-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="70" lean-forward="true" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-ztjs.less" />
+    <entry file="file://$PROJECT_DIR$/public/html/zhuantijs/ztjs.html" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/cxqk-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="77" lean-forward="true" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/font/demo.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-cxqk.less" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-info-global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/chengxinqk/cxqk.html" />
+    <entry file="file://$PROJECT_DIR$/public/views/nav/contact-nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="77" lean-forward="true" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/contact/contact.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/cxcjh-qt-contact.less" />
+    <entry file="file://$PROJECT_DIR$/ss.md" />
+    <entry file="file://$PROJECT_DIR$/asd.md" />
+    <entry file="file://$PROJECT_DIR$/VERSION">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/head/head-top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/head/head-fot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/footer/foot-fot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../QXT/cxcjh/cxcjh-bd/public/css/cxcjh-qt-nav.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="40" lean-forward="false" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="34" lean-forward="false" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register-a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/register-b.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="66" lean-forward="true" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+          <folding>
+            <element signature="e#996#1748#0" expanded="false" />
+            <element signature="e#1870#3259#0" expanded="false" />
+            <element signature="e#2572#2783#0" expanded="false" />
+            <element signature="e#2795#2916#0" expanded="false" />
+            <element signature="e#3426#4594#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,268 @@
+*, p, ul {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+@bj: #08518b;
+
+@hui: #f3f3f3;
+
+@bai: #fff;
+
+html {
+   font-size: 62.5%;
+   height: 100%;
+}
+
+body {
+   min-height: 100%;
+   font: 1.2rem/1.6 "微软雅黑";
+   color: #000;
+   position: relative;
+}
+
+:focus {
+   outline: none;
+}
+
+ul, ol {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+a:hover, a:focus {
+   text-decoration: none;
+   color: @bj;
+}
+
+table {
+   border-spacing: 0;
+}
+
+label {
+   font-weight: normal;
+   margin: 0;
+}
+
+header, nav, section, footer {
+   display: block;
+   width: 100%;
+}
+
+.fl {
+   float: left;
+}
+
+.fr {
+   float: right;
+}
+
+.row {
+   margin-left: 0;
+   margin-right: 0;
+}
+
+input[type='submit'] {
+   -webkit-appearance: none;
+}
+
+/****************************************************************************************************/
+body.index-bj {
+   background: url("../images/login-bj.jpg") no-repeat center top;
+   background-size: cover;
+   text-align: center;
+}
+
+// 首页
+div.index {
+   padding-top: 20%;
+   a.logo {
+      display: block;
+      width: 22%;
+      margin: auto;
+      img {
+         display: block;
+         width: 100%;
+      }
+   }
+   div.d1 {
+      margin-top: 20%;
+      color: @bai;
+      letter-spacing: 2px;
+      p.p1 {
+         font-size: 1.6rem;
+         margin-bottom: 10px;
+      }
+   }
+   div.d2 {
+      padding: 0 15%;
+      margin-top: 25%;
+      a {
+         width: 38%;
+         height: 35px;
+         background: rgba(255, 255, 255, 0.5);
+         text-align: center;
+         line-height: 35px;
+         border-radius: 15px;
+         font-size: 1.6rem;
+         font-weight: bold;
+         letter-spacing: 1px;
+         &.on {
+            background: rgba(255, 255, 255, 1);
+         }
+      }
+   }
+}
+
+//登录、注册
+div.login-bj {
+   background: rgba(249, 249, 249, 0.5);
+   border-radius: 15px;
+   padding: 5px 0;
+}
+
+div.login {
+   position: absolute;
+   width: 80%;
+   top: 50%;
+   left: 50%;
+   margin-left: -40%;
+   margin-top: -112px;
+   color: @bai;
+   div.d-a {
+      margin-bottom: 25px;
+      div.d1 {
+         padding: 10px;
+         border-bottom: 1px solid rgba(249, 249, 249, 0.5);
+         &:last-child {
+            border-bottom: none;
+         }
+         span {
+            width: 19%;
+            height: 40px;
+            border-right: 1px solid rgba(249, 249, 249, 0.5);
+         }
+         input {
+            background: transparent;
+            border: none;
+            height: 40px;
+            line-height: 40px;
+            width: 77%;
+            padding-left: 12px;
+         }
+      }
+   }
+   .submit {
+      display: block;
+      width: 100%;
+      border: none;
+      background: rgba(249, 249, 249, 0.5);
+      border-radius: 5px;
+      font-size: 1.6rem;
+      letter-spacing: 3px;
+      padding: 6px 0;
+   }
+   div.d-b {
+      margin-top: 10px;
+      a {
+         color: @bai;
+         font-size: 1.2rem;
+         opacity: 0.6;
+      }
+   }
+   div.d-c {
+      margin-top: 20px;
+      border-top: 1px solid @bai;
+      background: url("../images/register-01.png") no-repeat center;
+      background-size: cover;
+      text-align: center;
+      padding: 6px;
+      p {
+         span {
+            color: #f29f3f;
+         }
+      }
+   }
+   &.register {
+      margin-top: -135px;
+   }
+}
+
+// 注册
+div.register-a {
+   position: absolute;
+   width: 80%;
+   top: 50%;
+   left: 50%;
+   margin-left: -40%;
+   margin-top: -112px;
+   color: @bai;
+   div.login-bj {
+      padding: 10px 0;
+      div.d-a {
+         text-align: center;
+         font-size: 1.5rem;
+         margin-bottom: 30px;
+         @media screen and (max-width: 356px) {
+            font-size: 1.3rem;
+         }
+         p {
+            margin-bottom: 5px;
+         }
+      }
+      div.d-b {
+         width: 98%;
+         margin: auto;
+         padding: 5px 12px;
+         border-bottom: 1px solid rgba(249, 249, 249, 0.5);
+         input {
+            width: 50%;
+            margin-left: 10px;
+            background: transparent;
+            text-align: center;
+            border: none;
+            @media screen and (max-width: 356px) {
+               width: 42%;
+            }
+         }
+         a {
+            width: 80px;
+            border-left: 1px solid rgba(249, 249, 249, 0.5);
+            text-align: right;
+            color: #666;
+         }
+      }
+      .submit {
+         border: none;
+         display: block;
+         width: 85%;
+         border-radius: 5px;
+         margin: 20px auto 15px;
+         font-size: 1.6rem;
+         letter-spacing: 2px;
+         padding: 6px 0;
+         background: #f29f3f;
+         color: @bai;
+      }
+   }
+
+   div.reg-a {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      border-bottom: 1px solid rgba(249, 249, 249, 0.5);
+      padding: 15px 0;
+      img {
+         width: 30px;
+      }
+   }
+   .reg-b {
+      margin-top: 10px;
+      margin-bottom: 35px;
+   }
+}
