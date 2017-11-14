@@ -18,17 +18,26 @@
    <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
 
 </head>
-<body class="index-bj">
-<div class="index">
-   <a href="javascript:" class="logo"><img src="../images/logo.png" alt=""></a>
-   <div class="d1">
-      <p class="p1">让消费更省钱</p>
-      <p class="p2">Making consumption cheaper</p>
-   </div>
-   <div class="d2 row">
-      <a href="javascript:" class="fl on">登录</a>
-      <a href="javascript:" class="fr">注册</a>
-   </div>
+<body>
+<div class="appraise">
+   <form action="">
+      <div class="appraise-s">
+         <textarea name="" id="" placeholder="请填写你对此次交易的评价"></textarea>
+         <ul class="row">
+            <li class="fl">
+               <img src="../images/appraise_01.jpg" alt="">
+            </li>
+            <li class="fl">
+               <img src="../images/appraise_02.jpg" alt="" onclick="myFile.click();">
+               <input type="file" class="hidden" id="myFile">
+            </li>
+         </ul>
+      </div>
+
+      <a href="javascript:" class="submit">取 消</a>
+      <input type="submit" class="submit on" value="确 定">
+   </form>
+
 </div>
 </body>
 </html>

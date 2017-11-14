@@ -18,17 +18,35 @@
    <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
 
 </head>
-<body class="index-bj">
-<div class="index">
-   <a href="javascript:" class="logo"><img src="../images/logo.png" alt=""></a>
-   <div class="d1">
-      <p class="p1">让消费更省钱</p>
-      <p class="p2">Making consumption cheaper</p>
-   </div>
-   <div class="d2 row">
-      <a href="javascript:" class="fl on">登录</a>
-      <a href="javascript:" class="fr">注册</a>
-   </div>
+<body>
+<div class="password user">
+   <form action="">
+      <div class="pass">
+         <div class="pass-a row">
+            <input class="pass-shuru" type="text" placeholder="用户名">
+            <span class="icon icon-close close-span"></span>
+         </div>
+      </div>
+      <p class="p-text">用户名只能修改一次（5-20个字）</p>
+
+      <div class="passBtn">
+         <input type="submit" value="确认修改">
+         <input class="btn-on" type="submit" value="确认修改">
+      </div>
+   </form>
 </div>
+
+<script>
+   $(function () {
+      $('.pass-shuru').focus(function () {
+         $('.close-span').show();
+      });
+
+      $('.close-span').click(function () {
+         $('.pass-shuru').val("");
+         $(this).hide();
+      });
+   })
+</script>
 </body>
 </html>
