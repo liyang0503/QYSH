@@ -543,6 +543,7 @@ div.account {
          img {
             width: 40px;
             height: 40px;
+            border-radius: 50%;
          }
       }
    }
@@ -730,6 +731,104 @@ div.payFooter {
          input {
             position: relative;
             top: 2px;
+         }
+      }
+   }
+}
+
+// 会员中心
+div.userInfo {
+   header {
+      background: url("../images/userInfo-bj.jpg") no-repeat center top @bai;
+      background-size: 100%;
+      height: 210px;
+      padding-top: 4%;
+      position: relative;
+      .shez {
+         position: absolute;
+         top: 3px;
+         right: 5px;
+         font-size: 2rem;
+         padding: 5px;
+      }
+      .head-top {
+         padding: 5% 4%;
+         a {
+            display: block;
+            color: @bai;
+            > img {
+               width: 64px;
+               height: 64px;
+               border-radius: 50%;
+               border: 2px solid @bai;
+            }
+            > div {
+               margin-left: 10px;
+               width: 63%;
+               @media screen and(max-width: 350px) {
+                  width: 67%;
+               }
+               div {
+                  span.title {
+                     font-size: 1.7rem;
+                     max-width: 60px;
+                     white-space: nowrap;
+                     text-overflow: ellipsis;
+                     overflow: hidden;
+                     display: inline-block;
+                     vertical-align: bottom;
+                     line-height: 150%;
+                  }
+                  .jp {
+                     background: @bai;
+                     border-radius: 15px;
+                     padding: 1px;
+                     color: #333;
+                     line-height: 120%;
+                     padding-right: 5px;
+                     margin-top: 6px;
+                     span {
+                        margin-right: 3px;
+                     }
+                  }
+               }
+               > p {
+                  margin-top: 10px;
+               }
+            }
+            span.ico {
+               font-size: 2.2rem;
+               margin-top: 3.5%;
+            }
+         }
+      }
+      div.head-fot {
+         text-align: center;
+         padding: 30px 10px 0 10px;
+         position: relative;
+         div {
+            a {
+               display: block;
+               font-weight: bold;
+               p {
+                  font-size: 1.4rem;
+               }
+               span {
+                  color: @bj;
+               }
+            }
+         }
+         img {
+            position: absolute;
+            width: 1px;
+            height: 30px;
+            top: 32px;
+            &.i1 {
+               left: 34%;
+            }
+            &.i2 {
+               right: 34%;
+            }
          }
       }
    }
