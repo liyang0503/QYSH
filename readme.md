@@ -29,3 +29,12 @@ account.html
 # 支付
 pay.html  
 pay-a.html  
+
+# 个人中心
+userInfo.html  
+
+# 详情
+details.html  
+
+# 拼团
+pintuan.html  

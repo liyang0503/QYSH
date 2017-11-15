@@ -685,6 +685,9 @@ div.payFooter > div label input {
   position: relative;
   top: 2px;
 }
+body.user {
+  background: #fff;
+}
 div.userInfo header {
   background: url("../images/userInfo-bj.jpg") no-repeat center top #fff;
   background-size: 100%;
@@ -776,4 +779,459 @@ div.userInfo header div.head-fot img.i1 {
 }
 div.userInfo header div.head-fot img.i2 {
   right: 34%;
+}
+div.userInfo .userInfo-a {
+  padding: 5px 10px;
+  background: #e5e5e5;
+}
+div.userInfo .userInfo-a .a1 {
+  font-size: 1.4rem;
+}
+div.userInfo .userInfo-a .a1 span {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+div.userInfo .userInfo-b {
+  background: #fff;
+}
+div.userInfo .userInfo-b ul li {
+  width: 20%;
+  text-align: center;
+}
+div.userInfo .userInfo-b ul li a {
+  display: block;
+  font-size: 1.4rem;
+  padding: 15px 0;
+}
+div.userInfo .userInfo-b ul li a span {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+div.userInfo a.gg {
+  display: block;
+}
+div.userInfo a.gg img {
+  display: block;
+  width: 100%;
+}
+div.userInfo .userInfo-c div.d-a p.title {
+  padding: 10px 15px;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+div.userInfo .userInfo-c div.d-a div.d-a-s {
+  padding: 10px 0;
+  text-align: center;
+}
+div.userInfo .userInfo-c div.d-a div.d-a-s ul li {
+  padding: 0;
+  height: 72px;
+}
+div.userInfo .userInfo-c div.d-a div.d-a-s ul li a {
+  display: block;
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+div.userInfo .userInfo-c div.d-a div.d-a-s ul li a span.icon {
+  font-size: 2.6rem;
+}
+body.details {
+  padding-bottom: 45px;
+}
+body.details header .swiper-container .swiper-wrapper .swiper-slide a {
+  display: block;
+}
+body.details header .swiper-container .swiper-wrapper .swiper-slide a img {
+  display: block;
+  width: 100%;
+}
+body.details header .swiper-container .swiper-pagination-bullet {
+  background: #626262;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+body.details header .swiper-container .swiper-pagination-bullet-active {
+  background: #f00000;
+}
+body.details header .head-title {
+  padding: 10px;
+}
+body.details header .head-title a.title {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+body.details header .head-title div.d-a span.jg {
+  font-weight: bold;
+  color: #f00000;
+}
+body.details header .head-title div.d-a span.h {
+  font-size: 1.1rem;
+  color: #626262;
+}
+body.details div.guige {
+  padding: 8px 0;
+  background: #e5e5e5;
+}
+body.details div.guige a {
+  display: block;
+  background: #fff;
+  padding: 13px 10px;
+  color: #aeaeae;
+}
+body.details div.guige a span {
+  margin-top: 4px;
+}
+body.details div.guige a span:before {
+  color: #aeaeae;
+}
+body.details section ul.details-title {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+body.details section ul.details-title li {
+  display: inline-block;
+  padding: 0 15px;
+}
+body.details section ul.details-title li a {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  top: 1px;
+}
+body.details section ul.details-title li a.on {
+  border-bottom-color: #f00000;
+}
+body.details section .details-sec .det-s {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body.details section .details-sec .det-s:last-child {
+  border-bottom: none;
+}
+body.details section .details-sec .det-s a {
+  display: block;
+}
+body.details section .details-sec .det-s a p.title {
+  margin-bottom: 5px;
+}
+body.details section .details-sec .det-s a div.row ul.row {
+  padding-top: 20px;
+  width: 55%;
+}
+body.details section .details-sec .det-s a div.row ul.row li {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #e5e5e5;
+  padding: 1px;
+  margin-right: 5px;
+}
+body.details section .details-sec .det-s a div.row ul.row li img {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+body.details section .details-sec .det-s a div.row div.fr {
+  width: 42%;
+}
+body.details footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background: #fff;
+}
+body.details footer ul {
+  padding: 0;
+}
+body.details footer ul li {
+  padding: 0;
+}
+body.details footer ul li a {
+  display: block;
+  text-align: center;
+  height: 45px;
+}
+body.details footer ul.fot-le li a {
+  position: relative;
+  padding-top: 6px;
+  border-top: 1px solid #e5e5e5;
+}
+body.details footer ul.fot-le li a span.icon {
+  font-size: 1.4rem;
+  display: block;
+  height: 16px;
+}
+body.details footer ul.fot-le li a span.icon.icon-shouc,
+body.details footer ul.fot-le li a span.icon.icon-shouca {
+  display: none;
+}
+body.details footer ul.fot-le li a span.icon.icon-shouc:before {
+  color: #f00000;
+}
+body.details footer ul.fot-le li a span.icon.on {
+  display: block;
+}
+body.details footer ul.fot-le li a span.s {
+  position: absolute;
+  right: 17px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  background: #f00000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1rem;
+}
+body.details footer ul.fot-le li:first-child a {
+  border-right: 1px solid #e5e5e5;
+}
+body.details footer ul.fot-rt li a {
+  line-height: 45px;
+  background: #ff9d34;
+  color: #fff;
+  font-size: 1.6rem;
+}
+body.details footer ul.fot-rt li.hp a {
+  background: #f00000;
+}
+body.details div.model {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 70%;
+  background: #fff;
+  padding-bottom: 35px;
+  border-top: 1px solid #e5e5e5;
+}
+body.details div.model form {
+  height: 100%;
+}
+body.details div.model div.model-top {
+  position: relative;
+  top: -35px;
+  padding-left: 15px;
+}
+body.details div.model div.model-top a {
+  display: inline-block;
+}
+body.details div.model div.model-top a img {
+  width: 70px;
+  height: 70px;
+}
+body.details div.model div.model-top span {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  color: #f00000;
+  font-size: 1.3rem;
+}
+body.details div.model div.model-sec {
+  height: 82%;
+  position: absolute;
+  width: 100%;
+  bottom: 35px;
+  overflow-y: auto;
+}
+body.details div.model div.model-sec div.model-s {
+  padding: 0 10px;
+}
+body.details div.model div.model-sec div.model-s .model-s-a {
+  padding: 10px 2px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body.details div.model div.model-sec div.model-s .model-s-a:last-child {
+  border-bottom: none;
+}
+body.details div.model div.model-sec div.model-s p.title {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+}
+body.details div.model div.model-sec div.model-s ul li {
+  padding: 3px 10px;
+  margin-right: 12px;
+  background: #e2e2e2;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+body.details div.model div.model-sec div.model-s ul li.on {
+  color: #fff;
+  background: #f00000;
+}
+body.details div.model div.model-sec div.model-s div.sl div.row > * {
+  float: left;
+}
+body.details div.model div.model-sec div.model-s div.sl div.row span {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #e5e5e5;
+  line-height: 23px;
+  text-align: center;
+  font-size: 2rem;
+  color: #7d7d7d;
+}
+body.details div.model div.model-sec div.model-s div.sl div.row input {
+  border: 1px solid #e5e5e5;
+  height: 25px;
+  border-left: none;
+  border-right: none;
+  width: 40px;
+  text-align: center;
+}
+body.details div.model .submit {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  height: 35px;
+  background: #f00000;
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 10px;
+}
+body.details div.model .end {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 1.8rem;
+  padding: 5px;
+}
+body.details div.model .end:before {
+  color: #333;
+}
+div.pintuan {
+  background: #fff;
+  padding: 3px;
+}
+div.pintuan .bk {
+  border: 1px solid #7d7d7d;
+}
+div.pintuan .bkj {
+  background: #eee;
+}
+div.pintuan .w1 {
+  width: 35%;
+  text-align: left;
+}
+div.pintuan .w2 {
+  width: 31%;
+  text-align: center;
+}
+div.pintuan .w3 {
+  width: 17%;
+  text-align: center;
+}
+div.pintuan .pin-title {
+  padding: 3px 0;
+}
+div.pintuan .pin-title .w1 {
+  padding-left: 10px;
+}
+div.pintuan .pin-sec {
+  margin-top: 5px;
+  border-bottom: none;
+}
+div.pintuan .pin-sec .pin-t {
+  border-bottom: 1px solid #7d7d7d;
+  padding: 2px 5px;
+}
+div.pintuan .pin-sec .pin-t label {
+  font-size: 1.1rem;
+}
+div.pintuan .pin-sec .pin-t label input {
+  position: relative;
+  top: 1px;
+  margin-right: 3px;
+}
+div.pintuan .pin-sec .pin-t div a {
+  font-size: 1.8rem;
+  padding: 2px;
+  position: relative;
+  top: 2px;
+}
+div.pintuan .pin-sec .pin-s {
+  border-bottom: 1px solid #7d7d7d;
+}
+div.pintuan .pin-sec .pin-s > div {
+  height: 60px;
+  padding: 8px 3px !important;
+}
+div.pintuan .pin-sec .pin-s .w1 {
+  padding: 0 3px;
+  border-right: 1px solid #e5e5e5;
+}
+div.pintuan .pin-sec .pin-s .w1 a {
+  display: block;
+}
+div.pintuan .pin-sec .pin-s .w1 a img {
+  width: 40px;
+  height: 40px;
+}
+div.pintuan .pin-sec .pin-s .w1 a div p {
+  line-height: 100%;
+}
+div.pintuan .pin-sec .pin-s .w1 a div p.p1 {
+  font-size: 1rem;
+}
+div.pintuan .pin-sec .pin-s .w1 a div p.p2 {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+div.pintuan .pin-sec .pin-s .w2 {
+  font-size: 0.8rem;
+  border-right: 1px solid #e5e5e5;
+}
+div.pintuan .pin-sec .pin-s .w2 span,
+div.pintuan .pin-sec .pin-s .w2 p {
+  line-height: 100%;
+  display: block;
+}
+div.pintuan .pin-sec .pin-s .w2 .p1 {
+  color: #f00000;
+}
+div.pintuan .pin-sec .pin-s .w2 .s2 {
+  color: #aaa;
+}
+div.pintuan .pin-sec .pin-s .w3 .s1 {
+  font-size: 2rem;
+  color: #f00000;
+  font-weight: bold;
+  line-height: 100%;
+}
+div.pintuan .pin-sec .pin-s .w3 .s2 {
+  font-size: 1.4rem;
+}
+div.pintuan .pin-sec .pin-s .w3 p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #aaa;
+}
+div.pintuan .pin-sec .pin-s .w3 a {
+  display: block;
+  width: 40px;
+  margin: auto;
+  border: 1px solid #7d7d7d;
+  margin-bottom: 3px;
+  font-size: 1rem;
+}
+div.pintuan .pin-sec .pin-s .w3 a.on {
+  background: #f00000;
+  color: #fff;
+}
+div.pintuan .pin-sec .pin-s .ww {
+  border-right: 1px solid #e5e5e5;
 }

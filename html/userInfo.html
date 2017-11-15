@@ -1,66 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="renderer" content="webkit|ie-comp|ie-stand">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>秦羿生活</title>
-    <link rel="stylesheet" href="../font/style.css">
-    <!--样式表-->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.0.3/mobile/need/layer.min.css">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/global.css">
+   <meta charset="UTF-8">
+   <meta name="renderer" content="webkit|ie-comp|ie-stand">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <title>秦羿生活</title>
+   <link rel="stylesheet" href="../font/style.css">
+   <!--样式表-->
+   <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.0.3/mobile/need/layer.min.css">
+   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/global.css">
 
-    <!--js库文件-->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
+   <!--js库文件-->
+   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
 
 </head>
-<body>
+<body class="user">
 <div class="userInfo">
-    <header>
-        <div class="head-top">
-            <a href="javascript:" class="row">
-                <img src="../images/acc-t.png" alt="" class="fl">
-                <div class="fl">
-                    <div class="row">亲爱的会员：<span class="title">小葫芦</span>
-                        <div class="fr jp">
-                            <span class="icon icon-jinp"><b class="path1"></b><b class="path2"></b></span>金牌会员
-                            <!--银牌图标-->
-                            <!--<span class="icon icon-yp"><b class="path1"></b><b class="path2"></b></span>银牌会员-->
-                        </div>
-                    </div>
-                    <p class="row">ID:88834867 <span class="tx fr">可提现金额：1654</span></p>
-                </div>
-                <span class="ico fr"> > </span>
+   <header>
+      <div class="head-top">
+         <a href="javascript:" class="row">
+            <img src="../images/acc-t.png" alt="" class="fl">
+            <div class="fl">
+               <div class="row">亲爱的会员：<span class="title">小葫芦</span>
+                  <div class="fr jp">
+                     <span class="icon icon-jinp"><b class="path1"></b><b class="path2"></b></span>金牌会员
+                     <!--银牌图标-->
+                     <!--<span class="icon icon-yp"><b class="path1"></b><b class="path2"></b></span>银牌会员-->
+                  </div>
+               </div>
+               <p class="row">ID:88834867 <span class="tx fr">可提现金额：1654</span></p>
+            </div>
+            <span class="ico fr"> > </span>
+         </a>
+      </div>
+      <a class="shez icon icon-shez"></a>
+      <div class="head-fot row">
+         <div class="col-xs-4">
+            <a href="javascript:">
+               <p>我的余额</p>
+               <span>600</span>
             </a>
-        </div>
-        <a class="shez icon icon-shez"></a>
-        <div class="head-fot row">
-            <div class="col-xs-4">
-                <a href="javascript:">
-                    <p>我的余额</p>
-                    <span>600</span>
-                </a>
-            </div>
-            <div class="col-xs-4">
-                <a href="javascript:">
-                    <p>我的积分</p>
-                    <span>600</span>
-                </a>
-            </div>
-            <div class="col-xs-4">
-                <a href="javascript:">
-                    <p>可提现金额</p>
-                    <span>600</span>
-                </a>
-            </div>
-            <img class="i1" src="../images/userInfo-01.png" alt="">
-            <img class="i2" src="../images/userInfo-01.png" alt="">
-        </div>
-    </header>
+         </div>
+         <div class="col-xs-4">
+            <a href="javascript:">
+               <p>我的积分</p>
+               <span>600</span>
+            </a>
+         </div>
+         <div class="col-xs-4">
+            <a href="javascript:">
+               <p>可提现金额</p>
+               <span>¥ 600</span>
+            </a>
+         </div>
+         <img class="i1" src="../images/userInfo-01.png" alt="">
+         <img class="i2" src="../images/userInfo-01.png" alt="">
+      </div>
+   </header>
+   <div class="userInfo-a row">
+      <a href="javascript:" class="a1">
+         <span class="icon icon-han"></span>我的订单
+      </a>
+      <a href="javascript:" class="fr">全部订单></a>
+   </div>
+   <div class="userInfo-b">
+      <ul class="row">
+         <li class="fl">
+            <a href="javascript:">
+               <span class="icon icon-daifukuan"></span>
+               <p>待付款</p>
+            </a>
+         </li>
+         <li class="fl">
+            <a href="javascript:">
+               <span class="icon icon-daifahuo"></span>
+               <p>待发货</p>
+            </a>
+         </li>
+         <li class="fl">
+            <a href="javascript:">
+               <span class="icon icon-daishouhuo"></span>
+               <p>待收货</p>
+            </a>
+         </li>
+         <li class="fl">
+            <a href="javascript:">
+               <span class="icon icon-daipingjia"></span>
+               <p>待评价</p>
+            </a>
+         </li>
+         <li class="fl">
+            <a href="javascript:">
+               <span class="icon icon-tuik"></span>
+               <p>待退款</p>
+            </a>
+         </li>
+      </ul>
+   </div>
+   <a href="javascript:" class="gg">
+      <img src="../images/userInfo-01.jpg" alt="">
+   </a>
+   <div class="userInfo-c">
+      <div class="d-a">
+         <p class="title">必备工具</p>
+         <div class="d-a-s">
+            <ul class="row">
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-shim">
+                        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                        class="path4"></span><span class="path5"></span><span class="path6"></span>
+                     </span>
+                     <p>账户信息</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-kef">
+                        <span class="path1"></span><span class="path2"></span>
+                     </span>
+                     <p>在线客服</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-shouh"></span>
+                     <p>收货地址</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-bind-wei"></span>
+                     <p>微信绑定</p>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="d-a">
+         <p class="title">商机管理</p>
+         <div class="d-a-s">
+            <ul class="row">
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-sjrz"></span>
+                     <p>商家入驻</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-ruz">
+                        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                        class="path4"></span><span class="path5"></span><span class="path6"></span><span
+                        class="path7"></span>
+                     </span>
+                     <p>供应商管理</p>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="d-a">
+         <p class="title">数据统计</p>
+         <div class="d-a-s">
+            <ul class="row">
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-sjrz"></span>
+                     <p>我的钱包</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-user"></span>
+                     <p>我的会员</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-jifen"></span>
+                     <p>我的积分</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-dingd"></span>
+                     <p>我的订单</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-tuang"></span>
+                     <p>我的团购</p>
+                  </a>
+               </li>
+               <li class="col-xs-3">
+                  <a href="javascript:">
+                     <span class="icon icon-sc">
+                        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span
+                        class="path4"></span>
+                     </span>
+                     <p>我的收藏</p>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
 </div>
 </body>
 </html>
