@@ -29,11 +29,38 @@
          <div class="d-b row">
             <span class="fl">验证码</span>
             <input class="fl" type="text" placeholder="短信验证码">
-            <a class="fr" href="javascript:">60秒后重发</a>
+            <a class="fr" href="javascript:" id="to-time"><span id="time">60</span>秒后重发</a>
          </div>
          <input type="submit" class="submit" value="下一步">
       </div>
    </form>
 </div>
+
+<script>
+   $(function () {
+      var num = 60;
+
+      var time1 = setTimeout(jian, 1000);
+
+      function jian() {
+         if (num == 0) {
+            num = 60;
+            $('#to-time').html("重新发送");
+            return false;
+         }
+         num -= 1;
+         $('#time').html(num);
+         setTimeout(jian, 1000);
+      }
+
+//      重新发送
+      $('#to-time').click(function () {
+         if ($('#to-time').html() == "重新发送") {
+            $('#to-time').html("<span id=\"time\">60</span>秒后重发");
+            jian();
+         }
+      })
+   })
+</script>
 </body>
 </html>

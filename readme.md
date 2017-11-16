@@ -38,3 +38,6 @@ details.html
 
 # 拼团
 pintuan.html  
+
+# VERSION 1.1
+增加js效果

@@ -242,6 +242,7 @@ div.register-a div.login-bj div.d-b input {
 }
 div.register-a div.login-bj div.d-b a {
   width: 80px;
+  height: 19px;
   border-left: 1px solid rgba(249, 249, 249, 0.5);
   text-align: right;
   color: #666;
@@ -271,6 +272,22 @@ div.register-a div.reg-a img {
 div.register-a .reg-b {
   margin-top: 10px;
   margin-bottom: 35px;
+}
+div.register-a ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #eee;
+}
+div.register-a :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #eee;
+}
+div.register-a ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #eee;
+}
+div.register-a :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #eee;
 }
 .passBtn {
   padding: 10px;
@@ -1143,11 +1160,11 @@ div.pintuan .w1 {
   text-align: left;
 }
 div.pintuan .w2 {
-  width: 31%;
+  width: 29%;
   text-align: center;
 }
 div.pintuan .w3 {
-  width: 17%;
+  width: 18%;
   text-align: center;
 }
 div.pintuan .pin-title {
@@ -1164,9 +1181,6 @@ div.pintuan .pin-sec .pin-t {
   border-bottom: 1px solid #7d7d7d;
   padding: 2px 5px;
 }
-div.pintuan .pin-sec .pin-t label {
-  font-size: 1.1rem;
-}
 div.pintuan .pin-sec .pin-t label input {
   position: relative;
   top: 1px;
@@ -1182,7 +1196,7 @@ div.pintuan .pin-sec .pin-s {
   border-bottom: 1px solid #7d7d7d;
 }
 div.pintuan .pin-sec .pin-s > div {
-  height: 60px;
+  height: 167px;
   padding: 8px 3px !important;
 }
 div.pintuan .pin-sec .pin-s .w1 {
@@ -1193,26 +1207,27 @@ div.pintuan .pin-sec .pin-s .w1 a {
   display: block;
 }
 div.pintuan .pin-sec .pin-s .w1 a img {
-  width: 40px;
-  height: 40px;
-}
-div.pintuan .pin-sec .pin-s .w1 a div p {
-  line-height: 100%;
-}
-div.pintuan .pin-sec .pin-s .w1 a div p.p1 {
-  font-size: 1rem;
+  width: 70px;
+  height: 70px;
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
 }
 div.pintuan .pin-sec .pin-s .w1 a div p.p2 {
-  font-size: 0.8rem;
   color: #aaa;
+}
+div.pintuan .pin-sec .pin-s .w1 a div p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 div.pintuan .pin-sec .pin-s .w2 {
   font-size: 0.8rem;
   border-right: 1px solid #e5e5e5;
+  padding-top: 10% !important;
 }
 div.pintuan .pin-sec .pin-s .w2 span,
 div.pintuan .pin-sec .pin-s .w2 p {
-  line-height: 100%;
   display: block;
 }
 div.pintuan .pin-sec .pin-s .w2 .p1 {
@@ -1220,6 +1235,9 @@ div.pintuan .pin-sec .pin-s .w2 .p1 {
 }
 div.pintuan .pin-sec .pin-s .w2 .s2 {
   color: #aaa;
+}
+div.pintuan .pin-sec .pin-s .w3 {
+  padding-top: 11% !important;
 }
 div.pintuan .pin-sec .pin-s .w3 .s1 {
   font-size: 2rem;
@@ -1231,23 +1249,22 @@ div.pintuan .pin-sec .pin-s .w3 .s2 {
   font-size: 1.4rem;
 }
 div.pintuan .pin-sec .pin-s .w3 p {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   color: #aaa;
 }
 div.pintuan .pin-sec .pin-s .w3 a {
   display: block;
-  width: 40px;
+  width: 44px;
   margin: auto;
   border: 1px solid #7d7d7d;
-  margin-bottom: 3px;
-  font-size: 1rem;
+  margin-bottom: 5px;
+  border-radius: 3px;
 }
 div.pintuan .pin-sec .pin-s .w3 a.on {
   background: #f00000;
   color: #fff;
+  border-color: #f00000;
 }
 div.pintuan .pin-sec .pin-s .ww {
   border-right: 1px solid #e5e5e5;
+  padding-top: 13% !important;
 }

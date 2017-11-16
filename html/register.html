@@ -20,15 +20,15 @@
 </head>
 <body class="index-bj">
 <div class="login register">
-   <form action="">
+   <form action="" onsubmit="return register()">
       <div class="login-bj d-a">
          <div class="d1 row">
             <span class="fl icon icon-tel-a"></span>
-            <input class="fl" type="text" placeholder="请输入手机号码">
+            <input class="fl" type="text" id="tel" placeholder="请输入手机号码">
          </div>
          <div class="d1 row">
             <span class="fl icon icon-pass"></span>
-            <input class="fl" type="text" placeholder="登陆密码（6-16位数字字母组合密码）">
+            <input class="fl" type="password" id="pass" placeholder="登陆密码（6-16位数字字母组合密码）">
          </div>
       </div>
       <input type="submit" class="submit" value="下一步">
@@ -38,5 +38,30 @@
       </div>
    </form>
 </div>
+
+<script>
+   function register() {
+      var tel = $('#tel').val();
+      var pass = $('#pass').val();
+      var telReg = /0?(13|14|15|18)[0-9]{9}/;
+      var passReg = /^[A-Za-z0-9]{6,16}$/g;
+      if (tel == "" && pass == "") {
+         layer.msg("请输入用户信息");
+         return false;
+      } else if (tel == "") {
+         layer.msg("请输入手机号");
+         return false;
+      } else if (pass == "") {
+         layer.msg("请输入密码");
+         return false;
+      } else if (!telReg.test(tel)) {
+         layer.msg("手机号格式错误");
+         return false;
+      } else if (!passReg.test(pass)) {
+         layer.msg("密码格式错误");
+         return false;
+      }
+   }
+</script>
 </body>
 </html>

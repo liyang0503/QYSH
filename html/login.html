@@ -20,15 +20,15 @@
 </head>
 <body class="index-bj">
 <div class="login">
-   <form action="">
+   <form action="" onsubmit="return login()">
       <div class="login-bj d-a">
          <div class="d1 row">
             <span class="fl icon icon-tel-a"></span>
-            <input class="fl" type="text" value="15823659874">
+            <input class="fl" type="text" id="tel">
          </div>
          <div class="d1 row">
             <span class="fl icon icon-pass"></span>
-            <input class="fl" type="text">
+            <input class="fl" type="password" id="pass">
          </div>
       </div>
       <input type="submit" class="submit" value="登录">
@@ -38,5 +38,22 @@
       </div>
    </form>
 </div>
+
+<script>
+   function login() {
+      var tel = $('#tel').val();
+      var pass = $('#pass').val();
+      if (tel == "" && pass == "") {
+         layer.msg("请输入用户信息");
+         return false;
+      } else if (tel == "") {
+         layer.msg("请输入用户手机号");
+         return false;
+      } else if (pass == "") {
+         layer.msg("请输入密码");
+         return false;
+      }
+   }
+</script>
 </body>
 </html>

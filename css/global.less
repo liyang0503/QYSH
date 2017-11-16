@@ -254,6 +254,7 @@ div.register-a {
          }
          a {
             width: 80px;
+            height: 19px;
             border-left: 1px solid rgba(249, 249, 249, 0.5);
             text-align: right;
             color: #666;
@@ -286,6 +287,19 @@ div.register-a {
    .reg-b {
       margin-top: 10px;
       margin-bottom: 35px;
+   }
+
+   ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      color: #eee;
+   }
+   :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: #eee;
+   }
+   ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: #eee;
+   }
+   :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #eee;
    }
 }
 
@@ -1248,11 +1262,11 @@ div.pintuan {
       text-align: left;
    }
    .w2 {
-      width: 31%;
+      width: 29%;
       text-align: center;
    }
    .w3 {
-      width: 17%;
+      width: 18%;
       text-align: center;
    }
    .pin-title {
@@ -1268,7 +1282,6 @@ div.pintuan {
          border-bottom: 1px solid @hui;
          padding: 2px 5px;
          label {
-            font-size: 1.1rem;
             input {
                position: relative;
                top: 1px;
@@ -1287,7 +1300,7 @@ div.pintuan {
       .pin-s {
          border-bottom: 1px solid @hui;
          > div {
-            height: 60px;
+            height: 167px;
             padding: 8px 3px !important;
          }
          .w1 {
@@ -1296,19 +1309,20 @@ div.pintuan {
             a {
                display: block;
                img {
-                  width: 40px;
-                  height: 40px;
+                  width: 70px;
+                  height: 70px;
+                  display: block;
+                  margin: auto;
+                  margin-bottom: 5px;
                }
                div {
-                  p {
-                     line-height: 100%;
-                  }
-                  p.p1 {
-                     font-size: 1rem;
-                  }
                   p.p2 {
-                     font-size: 0.8rem;
                      color: #aaa;
+                  }
+                  p {
+                     white-space: nowrap;
+                     text-overflow: ellipsis;
+                     overflow: hidden;
                   }
                }
             }
@@ -1316,8 +1330,8 @@ div.pintuan {
          .w2 {
             font-size: 0.8rem;
             border-right: 1px solid #e5e5e5;
+            padding-top: 10% !important;
             span, p {
-               line-height: 100%;
                display: block;
             }
             .p1 {
@@ -1328,6 +1342,7 @@ div.pintuan {
             }
          }
          .w3 {
+            padding-top: 11% !important;
             .s1 {
                font-size: 2rem;
                color: @bj;
@@ -1338,27 +1353,26 @@ div.pintuan {
                font-size: 1.4rem;
             }
             p {
-               white-space: nowrap;
-               text-overflow: ellipsis;
-               overflow: hidden;
                color: #aaa;
             }
 
             a {
                display: block;
-               width: 40px;
+               width: 44px;
                margin: auto;
                border: 1px solid @hui;
-               margin-bottom: 3px;
-               font-size: 1rem;
+               margin-bottom: 5px;
+               border-radius: 3px;
                &.on {
                   background: @bj;
                   color: @bai;
+                  border-color: @bj;
                }
             }
          }
          .ww {
             border-right: 1px solid #e5e5e5;
+            padding-top: 13% !important;
          }
       }
    }
