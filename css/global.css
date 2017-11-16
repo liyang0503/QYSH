@@ -181,6 +181,22 @@ div.login div.d-c p span {
 div.login.register {
   margin-top: -135px;
 }
+div.login ::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #fff;
+}
+div.login :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+div.login ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+div.login :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+}
 div.register-a {
   position: absolute;
   width: 80%;
