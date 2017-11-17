@@ -42,5 +42,5 @@ pintuan.html
 # VERSION 1.1
 增加js效果
 
-# VERSION 1.2
+# VERSION 1.3
 部分页面修改

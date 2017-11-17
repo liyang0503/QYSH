@@ -661,6 +661,11 @@ div.pay div.pay-fot div.d-a div.d-s a div.d-s-a {
   width: 56%;
   margin-left: 10px;
 }
+@media screen and (max-width: 350px) {
+  div.pay div.pay-fot div.d-a div.d-s a div.d-s-a {
+    width: 50%;
+  }
+}
 div.pay div.pay-fot div.d-a div.d-s a div.d-s-a p.tit {
   white-space: nowrap;
   text-overflow: ellipsis;
