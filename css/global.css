@@ -103,6 +103,7 @@ div.index div.d2 a {
 }
 div.index div.d2 a.on {
   background: #ffffff;
+  color: #333;
 }
 div.login-bj {
   background: rgba(249, 249, 249, 0.5);
@@ -330,7 +331,7 @@ div.password .pass .pass-a .in1 {
 }
 @media screen and (max-width: 350px) {
   div.password .pass .pass-a .in1 {
-    width: 55%;
+    width: 52%;
   }
 }
 div.password .pass .pass-a .yzm {

@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="renderer" content="webkit|ie-comp|ie-stand">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-   <title>秦羿生活</title>
-   <link rel="stylesheet" href="../font/style.css">
-   <!--样式表-->
-   <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.0.3/mobile/need/layer.min.css">
-   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   <link rel="stylesheet" href="../css/global.css">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>秦羿生活</title>
+    <link rel="stylesheet" href="../font/style.css">
+    <!--样式表-->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.0.3/mobile/need/layer.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/global.css">
 
-   <!--js库文件-->
-   <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
+    <!--js库文件-->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/layer/3.0.3/layer.min.js"></script>
 
 </head>
 <body class="index-bj">
 <div class="index">
-   <a href="javascript:" class="logo"><img src="../images/logo.png" alt=""></a>
-   <div class="d1">
-      <p class="p1">让消费更省钱</p>
-      <p class="p2">Making consumption cheaper</p>
-   </div>
-   <div class="d2 row">
-      <a href="javascript:" class="fl on">登录</a>
-      <a href="javascript:" class="fr">注册</a>
-   </div>
+    <a href="javascript:" class="logo"><img src="../images/logo.png" alt=""></a>
+    <div class="d1">
+        <p class="p1">让消费更省钱</p>
+        <p class="p2">Making consumption cheaper</p>
+    </div>
+    <div class="d2 row">
+        <a href="javascript:" class="fl btn-a">登录</a>
+        <a href="javascript:" class="fr btn-a">注册</a>
+    </div>
 </div>
+
+<script>
+   $(function () {
+      $('.btn-a').click(function () {
+         $(this).addClass('on');
+         $(this).siblings().removeClass('on');
+      });
+   })
+</script>
 </body>
 </html>
