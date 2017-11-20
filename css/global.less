@@ -72,6 +72,13 @@ input[type='submit'] {
    -webkit-appearance: none;
 }
 
+.tab-sec {
+   display: none;
+   &.on {
+      display: block;
+   }
+}
+
 /****************************************************************************************************/
 body.index-bj {
    background: url("../images/login-bj.jpg") no-repeat center top;
@@ -1011,7 +1018,9 @@ body.details {
                border-bottom: 2px solid transparent;
                position: relative;
                top: 1px;
-               &.on {
+            }
+            &.on {
+               a {
                   border-bottom-color: @bj;
                }
             }

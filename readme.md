@@ -44,3 +44,6 @@ pintuan.html
 
 # VERSION 1.3
 部分页面修改
+
+# VERSION 1.4
+详情页修改

@@ -59,6 +59,12 @@ footer {
 input[type='submit'] {
   -webkit-appearance: none;
 }
+.tab-sec {
+  display: none;
+}
+.tab-sec.on {
+  display: block;
+}
 /****************************************************************************************************/
 body.index-bj {
   background: url("../images/login-bj.jpg") no-repeat center top;
@@ -944,7 +950,7 @@ body.details section ul.details-title li a {
   position: relative;
   top: 1px;
 }
-body.details section ul.details-title li a.on {
+body.details section ul.details-title li.on a {
   border-bottom-color: #f00000;
 }
 body.details section .details-sec .det-s {
